@@ -22,16 +22,9 @@ Antes de programar pasé años en ventas y soporte técnico. De ahí viene lo qu
 
 Comparador de precios de palas de pádel en producción. Reúne el catálogo de las principales tiendas del sector, lo actualiza solo cada día y ayuda a encontrar la pala adecuada por forma, balance y nivel, no solo la más barata. Lo diseño, lo programo y lo mantengo yo.
 
-```mermaid
-flowchart LR
-    A[Tiendas<br/>scraping y feeds] -->|cada noche| B[Recogida<br/>automática]
-    B --> C[(PostgreSQL)]
-    C --> D[Consolidación<br/>de catálogo]
-    D --> E[Express + SSR]
-    E --> F[SEO técnico<br/>y usuarios]
-    classDef accent fill:#8B45F0,stroke:#8B45F0,color:#ffffff
-    class C,E accent
-```
+<p align="center">
+  <img src="./tupala_flujo.png" alt="Flujo de TuPala: tiendas, recogida diaria automática, PostgreSQL, catálogo unificado, Express con SSR y SEO técnico" width="100%">
+</p>
 
 - **Datos:** recogida diaria automática desde varias tiendas, con control de errores y registro de cada ejecución.
 - **Catálogo:** sistema propio que reconoce el mismo producto en tiendas distintas y propone unificar sus fichas, con revisión antes de aplicar cambios.
@@ -42,45 +35,16 @@ El repositorio es privado porque es un proyecto profesional; la mayor parte de l
 
 ## Stack
 
-<table>
-  <tr>
-    <th align="left">En producción (TuPala)</th>
-    <th align="left">En empresa (.NET)</th>
-    <th align="left">Ciclo de DAW</th>
-  </tr>
-  <tr valign="top">
-    <td>
-      <img src="https://img.shields.io/badge/Node.js-0A0A0E?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js"><br>
-      <img src="https://img.shields.io/badge/Express-0A0A0E?style=flat-square&logo=express&logoColor=white" alt="Express"><br>
-      <img src="https://img.shields.io/badge/PostgreSQL-0A0A0E?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL"><br>
-      <img src="https://img.shields.io/badge/Railway-0A0A0E?style=flat-square&logo=railway&logoColor=white" alt="Railway"><br>
-      <img src="https://img.shields.io/badge/Git-0A0A0E?style=flat-square&logo=git&logoColor=F05032" alt="Git">
-    </td>
-    <td>
-      <img src="https://img.shields.io/badge/C%23-0A0A0E?style=flat-square&logo=dotnet&logoColor=A179DC" alt="C#"><br>
-      <img src="https://img.shields.io/badge/ASP.NET%20Core%208-0A0A0E?style=flat-square&logo=dotnet&logoColor=A179DC" alt="ASP.NET Core 8"><br>
-      <img src="https://img.shields.io/badge/Entity%20Framework%20Core-0A0A0E?style=flat-square&logo=dotnet&logoColor=A179DC" alt="Entity Framework Core"><br>
-      <img src="https://img.shields.io/badge/SQL%20Server-0A0A0E?style=flat-square" alt="SQL Server">
-    </td>
-    <td>
-      <img src="https://img.shields.io/badge/Java-0A0A0E?style=flat-square&logo=openjdk&logoColor=white" alt="Java"><br>
-      <img src="https://img.shields.io/badge/JavaScript-0A0A0E?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript"><br>
-      <img src="https://img.shields.io/badge/PHP-0A0A0E?style=flat-square&logo=php&logoColor=777BB4" alt="PHP"><br>
-      <img src="https://img.shields.io/badge/MySQL-0A0A0E?style=flat-square&logo=mysql&logoColor=4479A1" alt="MySQL"><br>
-      <img src="https://img.shields.io/badge/HTML%20%2F%20CSS-0A0A0E?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML y CSS">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./stack.png" alt="Stack. En producción (TuPala): Node.js, Express, PostgreSQL, SSR, SEO técnico, Railway y Git. En empresa (.NET): C#, ASP.NET Core 8, Entity Framework Core y SQL Server. Ciclo de DAW: Java, JavaScript, PHP, MySQL, HTML5, CSS3 y Python" width="100%">
+</p>
 
 ## Actividad
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=AlvaroDEVicente&locale=es&background=0A0A0E&border=2A2A35&stroke=2A2A35&ring=8B45F0&fire=8B45F0&currStreakNum=F5F4FA&sideNums=F5F4FA&currStreakLabel=A778FF&sideLabels=C9C9D6&dates=8A8A99" alt="Racha de contribuciones en GitHub" width="80%">
+  <img src="https://streak-stats.demolab.com?user=AlvaroDEVicente&locale=es&hide_current_streak=true&background=0A0A0E&border=2A2A35&stroke=2A2A35&ring=8B45F0&fire=8B45F0&currStreakNum=F5F4FA&sideNums=F5F4FA&currStreakLabel=A778FF&sideLabels=C9C9D6&dates=8A8A99" alt="Racha de contribuciones en GitHub" width="80%">
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AlvaroDEVicente&bg_color=0A0A0E&color=C9C9D6&title_color=F5F4FA&line=8B45F0&point=F5F4FA&area=true&area_color=8B45F0&hide_border=true&custom_title=Contribuciones%20del%20%C3%BAltimo%20a%C3%B1o" alt="Gráfico de contribuciones del último año" width="100%">
-</p>
 
 ## Proyectos públicos
 
