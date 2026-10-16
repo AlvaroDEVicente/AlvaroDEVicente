@@ -15,9 +15,6 @@ Desarrollador web full-stack junior. Me gusta construir producto de principio a 
 
 Antes de programar pasé años en ventas y soporte técnico. De ahí viene lo que más me importa: que el producto funcione y que quien lo usa lo entienda.
 
-> **Busco mi primer puesto como desarrollador junior** en .NET, Java o Node.js.
-> Incorporación inmediata · presencial, híbrido o remoto.
-
 ## En qué trabajo ahora: [TuPala.es](https://tupala.es)
 
 Comparador de precios de palas de pádel en producción. Reúne el catálogo de las principales tiendas del sector, lo actualiza solo cada día y ayuda a encontrar la pala adecuada por forma, balance y nivel, no solo la más barata. Lo diseño, lo programo y lo mantengo yo.
